@@ -1,0 +1,63 @@
+body{
+    background-image: url('../view/LoginPagePhoto.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Cover the entire viewport */  
+    }
+    
+    
+    /* Styling for the login form container */
+    fieldset {
+    position: absolute; /* Position the fieldset absolutely */
+    top: 45px; /* Add space from the top */
+    left: 40%; /* Center horizontally */
+    width: 300px; /* Set width */
+    padding: 20px; /* Add padding inside */
+    margin: 50px auto 0; /* Add margin to the top and center horizontally */
+    border: 2px solid #59D5E0; /* Add border with light blue color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* White background */   
+    
+    }
+    
+    /* Styling for the profile title */
+    .profile-title {
+    text-align: center; /* Center the text */
+    }
+    
+    
+    /* Styling for custom input fields */
+    .custom-input {
+    
+    padding: 8px; /* Add padding */
+    margin-bottom: 5px; /* Add space below */
+    border: 1px solid #ccc; /* Add border with light gray color */
+    border-radius: 5px; /* Rounded corners */
+    
+    }
+    
+    /* Styling for the login button */
+    .login-button {
+    background-color: #59D5E0; /* Light blue background */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    
+    }
+    
+    /* Hover effect for the login button */
+    .login-button:hover {
+    background-color: #4fa9b8; /* Darker blue on hover */
+    }
+    
+    /* Styling for the forgot password link */
+    .forgot-password {
+    color: #59D5E0; /* Light blue color */
+    text-decoration: none; /* No underline */
+    margin-left: 10px; /* Add space on the left */
+    
+    }
+    
+    /* Hover effect for the forgot password link */
+    .forgot-password:hover {
+    text-decoration: underline; /* Underline on hover */
+    }

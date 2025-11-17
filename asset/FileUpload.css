@@ -1,0 +1,53 @@
+/* Body styling */
+body {
+    background-image: url('../view/dashbord3.jpg'); 
+    background-size: cover; /* Cover the entire viewport */
+    font-family: Arial, sans-serif; /* Specify the font family */
+}
+
+/* Fieldset styling */
+fieldset {
+    background-color: #59D5E0;
+    width: 40%; /* Set width */
+    margin: 95px; /* Center the fieldset */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid white; 
+}
+    
+
+/* Table styling */
+table {
+    width: 100%; /* Set table width to 100% */
+}
+
+
+
+/* Choose file button styling */
+.choose-file-button {
+    padding: 8px; /* Add padding */
+    margin-bottom: 5px; /* Add space below */
+    margin-left: 15px; /* Control the space between label and input field */
+    border: 1px solid white; /* Add border with light gray color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background color */
+}
+
+/* Upload button styling */
+.upload-button {
+    background-color: #4fa9b8; /* Light blue background */
+    color: black; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid white;
+    margin-top: 15px; /* Add space above the button */
+    margin-right: 10px;
+    margin-left: 70px;
+    
+    padding: 10px 20px; /* Padding */
+}
+
+/* Hover effect for the upload button */
+.upload-button:hover {
+    background-color: #388b9e; /* Darker blue on hover */
+}

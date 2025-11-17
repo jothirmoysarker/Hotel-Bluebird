@@ -1,0 +1,67 @@
+
+/* Body styling */
+body {
+    background-image: url('../view/ProfilePagePhoto.png'); 
+    background-size: cover; /* Cover the entire viewport */
+    font-family: Arial, sans-serif; /* Specify the font family */
+}
+
+/* Fieldset styling */
+fieldset {
+    background-color: #59D5E0;
+    width: 30%; /* Set width */
+    margin: 2px auto; /* Center the fieldset */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid white; /* Add border with light blue color */
+}
+
+/* Heading (h1) styling */
+h1 {
+    text-align: center; /* Center align the heading */
+    color: black; /* White text color */
+   
+    padding: 10px; /* Add padding to the heading */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.header {
+    padding: 15px 20px;
+}
+
+.home-button {
+    font-size: 20px;
+    width: 75px; /* Adjust width as needed */
+    height: 35px;  
+    border-radius: 10px;
+    border: 4px solid #59D5E0;
+    background-color: transparent; /* Change background color */
+    color: white; /* Change text color */
+  }
+
+  .home-button:hover{
+    background-color: #89CFF0 /* Change background color on hover */
+  }
+    
+
+/* Image styling */
+img {
+    display: block; /* Center align the image */
+    margin: 0 auto; /* Center the image horizontally */
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    border-radius: 50%; /* Make the image circular */
+    border: 5px solid #fff; /* Add a white border around the image */
+}
+
+/* Paragraph (p) styling */
+p {
+    text-align: center; /* Center align paragraphs */
+    margin-top: 10px; /* Add some top margin */
+}
+
+/* Strong (strong) text styling */
+p strong {
+    color: black; /* Change the color of the strong text */
+}

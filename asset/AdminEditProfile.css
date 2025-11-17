@@ -1,0 +1,74 @@
+
+/* Body styling */
+body {
+    background-image: url('../view/ProfilePagePhoto.png'); 
+    background-size: cover; /* Cover the entire viewport */
+    font-family: Arial, sans-serif; /* Specify the font family */
+}
+
+/* Fieldset styling */
+fieldset {
+    background-color: transparent;
+    width: 40%; /* Set width */
+    margin: 10px auto; /* Center the fieldset */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid white; /* Add border with light blue color */
+}
+
+.header {
+    padding: 15px 20px;
+}
+
+.home-button {
+    font-size: 20px;
+    width: 75px; /* Adjust width as needed */
+    height: 35px;  
+    border-radius: 10px;
+    border: 4px solid #59D5E0;
+    background-color: transparent; /* Change background color */
+    color: white; /* Change text color */
+  }
+
+  .home-button:hover{
+    background-color: #89CFF0 /* Change background color on hover */
+  }
+    
+
+/* Heading (h1) styling */
+h1 {
+    padding: 10px; /* Add padding to the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+
+
+.custom-input {
+
+    padding: 8px; /* Add padding */
+    padding-left: 15px;
+    margin-bottom: 5px; /* Add space below */
+    margin-left: 15px; /* controls the space between label and input field */
+    border: 1px solid #ccc; /* Add border with light gray color */
+    border-radius: 5px; /* Rounded corners */
+    
+    }
+
+    
+    /* Styling for the login button */
+    .submit-button {
+    background-color: #59D5E0; /* Light blue background */
+    color:black; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 8px;
+    padding: 10px 20px ; /* Padding */
+    
+    
+    }
+    
+    /* Hover effect for the login button */
+    .submit-button:hover {
+    background-color: #388b9e; /* Darker blue on hover */
+    }
+    

@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px;
+  }
+  
+  .header h1 {
+    margin: 0; /* Remove default top margin from heading */
+  }
+
+/* CSS for home button */
+.home-button {
+    font-size: 20px;
+    width: 75px; /* Adjust width as needed */
+    height: 35px;
+    color:black; 
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent; /* Change background color */
+
+  }
+  
+/* Button styling */
+.add-button {
+    font-size: 19px;
+    width: 110px; /* Adjust width as needed */
+    height: 35px;
+    color:black; 
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent; /* Change background color */
+   
+  }
+
+ /* Hover effect for both buttons */
+ .home-button:hover {
+   background-color: #59D5E0; /* Change background color on hover */
+ }  
+
+ .add-button:hover {
+    background-color: #59D5E0; /* Change background color on hover */
+  }
+  
+
+/* Body styling */
+body {
+    background-image: url('../view/ProfilePagePhoto.png'); 
+    background-size: cover; /* Cover the entire viewport */
+    font-family: Arial, sans-serif; /* Specify the font family */
+    margin: 0; /* Remove default body margin */
+    
+}
+
+/* Fieldset styling */
+fieldset {
+    background-color: transparent;
+    width: 70%; /* Set width */
+    margin: 30px; /* Center the fieldset */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid white; /* Add border with light blue color */
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px; /* Add some top margin */
+}
+
+th, td {
+  
+    padding: 10px; 
+    text-align: center; /* Center-align the text */
+}
+
+
+/* Remove default button styles */
+button {
+    border: none;
+    background-color: #59D5E0;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+/* Style the anchor within the button */
+button a {
+    display: inline-block;
+    padding: 8px 16px; /* Adjust padding as needed */
+    text-decoration: none;
+    color: black; 
+    font-size: 14px; /* Adjust font size as needed */   
+}
+
+
+/* Hover effect */
+button a:hover {
+    background-color: #87CEFA; /* Change to a lighter shade on hover */
+}
+

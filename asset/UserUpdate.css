@@ -1,0 +1,59 @@
+
+/* Body styling */
+body {
+    background-image: url('../view/ProfilePagePhoto.png'); 
+    background-size: cover; /* Cover the entire viewport */
+    font-family: Arial, sans-serif; /* Specify the font family */
+}
+
+/* Fieldset styling */
+fieldset {
+    background-color: transparent;
+    width: 40%; /* Set width */
+    margin: 50px auto; /* Center the fieldset */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid white; /* Add border with light blue color */
+}
+
+/* Heading (h1) styling */
+h1 {
+    padding: 10px; /* Add padding to the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.custom-input {
+
+    padding: 8px; /* Add padding */
+    padding-left: 15px;
+    margin-bottom: 5px; /* Add space below */
+    margin-left: 15px; /* controls the space between label and input field */
+    border: 1px solid #ccc; /* Add border with light gray color */
+    border-radius: 5px; /* Rounded corners */
+    
+    }
+
+    
+    /* Styling for the login button */
+    .submit-button {
+    background-color: #59D5E0; /* Light blue background */
+    font-size: 15px;
+    color: black; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 8px 18px ; /* Padding */
+    
+    
+    }
+    
+    /* Hover effect for the login button */
+    .submit-button:hover {
+    background-color: #388b9e; /* Darker blue on hover */
+    }
+
+
+  
+    
